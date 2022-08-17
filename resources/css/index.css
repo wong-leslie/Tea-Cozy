@@ -1,5 +1,5 @@
 *{
-   border: 1px solid red;
+   /* border: 1px solid red; */
     font-family:  sans-serif;
     color: seashell;
     background-color: black;
@@ -15,27 +15,33 @@
 .header{
     position: fixed;
     height: 69px;
-    display: inline-flex; 
-    align-items: center;
-    width: 100%;
+    width: 99%;
     z-index: 1;
-    opacity: 0.9;
+    opacity: 0.9; 
 }
 
+.links{
+    display: inline-flex;
+    width: 100%;
+}
 
 li{ 
     text-decoration: underline;
     list-style: none;
-    display: inline-block;
+    display: inline;
+    
 }
 
+ul{
+    text-align:right;
+}
 #left{
-    position: relative;
+    text-align: left;
+    width: 50%;
    
 }
 #right{
-    position: absolute;
-    right: 10px;
+    width: 50%;   
   
 }
 #logo{
@@ -45,8 +51,8 @@ li{
 /* main-hero */
 
 .mission{
-    position: relative;
     top: 69px;
+    position: relative;
     height: 700px;
     width: 1200px;
     display: inline-flex;
