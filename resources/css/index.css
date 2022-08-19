@@ -21,33 +21,33 @@
 
 }
 
-.links{
-    display: inline-flex;
-    width: 100%;
-}
-
-li{ 
-    display: inline;
-    list-style: none;
-    
-    
-}
-
 ul{
-    text-align:right;
-    margin: 0;
+    /* text-align:right; */
     text-decoration: underline;
+    float: right;
     
     
 }
+li{ 
+    display: inline-block;
+    text-align: center;
+    list-style: none;  
+}
+
+a{
+    display: inline-block;
+}
+
 #left{
+    float: left;
     text-align: left;
-    width: 50%;
+    /* width: 50%; */
    
 }
 #right{
-    padding-top: 1rem;
-    width: 50%;   
+    float: right;
+    /* padding-top: 1rem; */
+    /* width: 50%;    */
   
 }
 #logo{
