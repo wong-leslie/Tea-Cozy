@@ -18,6 +18,7 @@
     width: 99%;
     z-index: 1;
     opacity: 0.9; 
+
 }
 
 .links{
@@ -26,14 +27,18 @@
 }
 
 li{ 
-    text-decoration: underline;
-    list-style: none;
     display: inline;
+    list-style: none;
+    
     
 }
 
 ul{
     text-align:right;
+    margin: 0;
+    text-decoration: underline;
+    
+    
 }
 #left{
     text-align: left;
@@ -41,6 +46,7 @@ ul{
    
 }
 #right{
+    padding-top: 1rem;
     width: 50%;   
   
 }
